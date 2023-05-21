@@ -18,24 +18,24 @@ data=pandas.read_csv('data_banknote_authentication.csv', names=nume_coloane)
 
 """"# extragere coloana cu class
 data_clase = data.iloc[: ,4]
-print(data_clase)
+print(data_clase) 
 print('\n')
 """
 
 # impartim datele in seturi
 train, test, train_labels, test_labels = train_test_split(data.iloc[:,:4], data.iloc[:,4], test_size=0.33)
-print(train)
+print(train) # pentru verificare
 print('\n')
 
 # antrenarea modelului
 tree= tree.DecisionTreeClassifier()
 model=tree.fit(train, train_labels)
-print(train_labels)
-print('\n')
+print(train_labels) # pentru verificare
+print('\n') 
 
 # realizarea predictilor
 preds=tree.predict(test)
-print(preds)
+print(preds) # pentru verificare
 print('\n')
 
 # masurarea acuratetii
