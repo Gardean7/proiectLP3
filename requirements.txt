@@ -1,0 +1,32 @@
+Echipa: 12-E7
+Studenți: GĂRDEAN A. D. ALEXANDRU-ANDREI, GROZE E. D. BOGDAN-ADRIAN
+Temă proiect: D7-T1 | Antrenarea unui model de clasificare.
+
+"Utilizati un algoritm de Machine Learning pentru antrenarea unui model de clasificare."
+
+Cerinte minimale:
+1. Folosiți setul de date de la adresa: http://archive.ics.uci.edu/ml/datasets/banknote+authentication
+2. Utilizati algoritmul Decision Tree disponibil în scikit-learn pentru predicția clasei (atributul 5).
+https://scikit-learn.org/stable/modules/tree.html
+3. Măsurați acuratețea algoritmului de predicție:
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html
+
+-----------------------------------------------------------------------------------------------------------
+
+Requirements:
+
+joblib    1.2.0    1.2.0
+numpy    1.24.3    1.24.3
+pandas    2.0.1    2.0.1
+pip    22.3.1    23.1.2
+python-dateutil    2.8.2    2.8.2
+pytz    2023.3    2023.3
+scikit-learn    1.2.2    1.2.2                                   
+scipy    1.10.1    1.10.1
+setuptools    65.5.0    67.8.0
+six    1.16.0    1.16.0
+threadpoolctl    3.1.0    3.1.0
+tzdata    2023.3    2023.3
+
+
+
