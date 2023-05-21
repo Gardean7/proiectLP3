@@ -39,4 +39,4 @@ print(preds) # pentru verificare
 print('\n')
 
 # masurarea acuratetii
-print(accuracy_score(test_labels,preds))
+print('In urma masuratorii s-a obinut o acuratete de:' ,accuracy_score(test_labels,preds)*100, '%')
