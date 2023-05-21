@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score
 nume_coloane=['var','skew','curt','entr','class']
 
 # citire setului de date
-data=pandas.read_csv('data_banknote_authentication.csv', names=nume_coloane)
+data=pandas.read_csv('http://archive.ics.uci.edu/ml/machine-learning-databases/00267/data_banknote_authentication.txt', names=nume_coloane)
 
 """"# extragere coloana cu class
 data_clase = data.iloc[: ,4]
